@@ -1,0 +1,10 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+{% block content %}
+<section id="content-box">
+    <h1>{{ 'title.homepage.h1'|trans }}</h1>
+    <div class="content">
+        {{ 'content.homepage'|trans|raw }}
+    </div>
+</section>
+{% endblock %}

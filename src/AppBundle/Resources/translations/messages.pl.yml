@@ -1,0 +1,14 @@
+action:
+  homepage: Homepage
+  about_us: About Us
+  news: News
+
+title:
+  homepage:
+    h1: Homepage
+
+content:
+  homepage: >
+    <p class="header">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inciddun labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Duis es auste irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat nulla.</p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque esipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Denim des ipsam voupt atem quia voluptaspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque isdspsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Denim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui one voluptatem seqdui nesciunt. Neque porro quisquam est, dolore m ipsum quia dolor sit amet, consectetur, adipisci velit des amet doler.</p>

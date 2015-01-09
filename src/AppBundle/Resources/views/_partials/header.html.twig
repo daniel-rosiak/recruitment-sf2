@@ -1,0 +1,13 @@
+<header id="head">
+    <ul>
+        <li><a href="{{ path('app_homepage') }}">{{ 'action.homepage'|trans }}</a></li>
+        <li><a href="{{ path('app_about_us') }}">{{ 'action.about_us'|trans }}</a></li>
+        <li><a href="{{ path('app_news') }}">{{ 'action.news'|trans }}</a></li>
+    </ul>
+    <ul>
+        {% for locale in ['en', 'pl'] %}
+            <li><a href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale' : locale})) }}">{{locale}}</a></li>
+        {% endfor %}
+    </ul>
+</header>
+

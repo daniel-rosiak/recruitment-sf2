@@ -1,0 +1,21 @@
+AppBundle\Entity\News:
+    type:  entity
+    table: news
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        title:
+            type: string
+            lenght: 255
+            nullable: false
+        slug:
+            type: string
+            lenght: 255
+            nullable: false
+            unique: true
+        content:
+            type: text
+            nullable: false
+        #add created_at
